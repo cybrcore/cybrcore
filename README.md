@@ -1,119 +1,27 @@
-![Cybrland banner](./assets/banner.jpg)
 <p align="center">
   <a href="https://stand-with-ukraine.pp.ua/">
     <img alt="standwithukraine" src="https://img.shields.io/badge/Support-Ukraine-FFC93C?style=flat-square&labelColor=07689F">
   </a>
 </p>
 
-# Cybrland
-> [!NOTE]
-> **Cyberpunk design system**  
-> Daily driven on Arch + Hyprland, individual themes work anywhere  
-> 
-> **Version:** v1.1.3  
-> **Status:** Stable (2026-03-22)  
+# What is `cybrcore`
+## tl;dr
+cybrcore is a lucid design system. Custom color palette, wallpapers, cursors, deliberate typography, 20+ redesigned applications, and a documented design philosophy. Released as open source,, under GPL-3.0 license.
 
-[![Install Guide](./assets/install.png)](INSTALL.md) &nbsp; [![Roadmap](./assets/roadmap.png)](ROADMAP.md)
+## Intro
+Design is function followed by form. The function solves a problem, the form then makes the solution understandable. There is another definition of design I come back to from time to time: „design is applied art“. In daily design practice, we were bullied into thinking that design is completely removed from art and that we are not artists. In the end, clients pay for solutions to a problem, not for an „useless“ art piece, right? I think this line of thinking is not only incredibly dangerous, but one of the root causes of why design mostly sucks and keeps failing us. Us as designers and us as users.
 
-[![Design Philosophy](./assets/philosophy.png)](PHILOSOPHY.md) &nbsp; [![AI Disclosure](./assets/ai-usage.png)](AI-DISCLOSURE.md) &nbsp; [![Contributing](./assets/contributing.png)](CONTRIBUTING.md)
+## The Problem
+Contemporary design is a tool of exploitation and enslavement. It conditions us into passive-submissive acceptance of the world as it is, and strips us of the ability to imagine alternatives. It insists upon itself, it enforces a specific worldview, where owning and making something ours in the digital landscape begins and ends with uploading a profile picture and at the very most, choosing an accent colors from a limited palette, effectively killing our self-expression. We are forced to endure endless barrages of banners, popups and micro-interactions fighting for the last remnants of attention.
 
-## Content
-- [What's Inside](#whats-inside)
-- [Showcase](#showcase)
-- [Themes](#themes)
-- [Related Projects](#related-projects)
-- [Credits & Inspiration](#credits--inspiration)
+Design discourse is fed by "best practices" grind culture that enforces a preferred default state. The design we are left with is neutered, without any distinct smell or taste. Round, smooth, sterile, calculated to be inoffensive, forgettable, but above everything: frictionless and deliberately manipulative. But it still has a personality, a fake one. Dark patterns and addictive interaction loops erode our capacity to think, create, discuss and act freely. It is the absence of any meaningful friction that makes us dependent, complacent, and scared of anything that takes effort to do. We have the most powerful machines in history, and yet the tools we use daily are inexplicably slow, fragile, and patronizing, while at the same time feeding on our creativity, slowly but surely eliminating the very will for us to create. We have surrendered agency in exchange for a completely false sense of safety, efficiency and ease. We willingly let the parasites devour us. We forgot how to be brave, how to experiment, how to play. We forgot how to fight.
 
-## What's Inside
-- **Unified aesthetic** - Custom cyberpunk palette ([Cybrcolors](https://github.com/scherrer-txt/cybrcolors)) + 9 hand-crafted wallpapers ([Cybrpapers](https://github.com/scherrer-txt/cybrpapers))  
-- **Theme collection** - Custom themes for 17+ applications (*more soon!*)  
-- **Terminal-centric workflow** - Fast, integrated TUI/CLI tools  
-- **Modular by design** - Use the full setup or cherry-pick individual themes  
-- **Beginner-friendly docs** - Step-by-step guides with explanations + advanced patterns for power users  
+## The Roots
+Early computing systems had a clearly defined functional aspect, uncompromisingly placed above form. They respected users as individual, thinking, curious, learning beings. The goal was not to lower barriers to entry and please everyone. The goal was pure function and obedience of the system to the user's commands, in expected and predictable manner. Later on, the systems introduced icons. Thoughtfully. They helped identify commands not just by text and position, but also by shape, reducing cognitive load without sacrificing function. It was in this era the famous UNIX philosophy and it's most known commandment „Write programs that do one thing and do it well“ was born. It has became my own mantra.
 
-## Showcase
-<img src="./assets/inspiration/insp-main1.png">
-<p align="center">
-  <em>Left-to-right: Neovim, rofi-launcher, cava, fastfetch, custom script ↗</em>
-</p>
-<br>
-<img src="./assets/inspiration/insp-main2.png">
-<p align="center">
-  <em>Left-to-right: stacked micro, yazi, broot ↗</em>
-</p>
-<br>
-<img src="./assets/inspiration/insp-main3.png">
-<p align="center">
-  <em>Firefox w/Cybrspace.online custom theme ↗</em>
-</p>
-<br>
-<img src="./assets/inspiration/insp-main4.png">
-<p align="center">
-  <em>Left-to-right: clock, btop, ls ↗</em>
-</p>
-<br>
-<img src="./assets/inspiration/insp-main5.png">
-<p align="center">
-  <em>Fore-to-back: wallpaper selector, neovim, matrix ↗</em>
-</p>
-<br>
-<img src="./assets/inspiration/insp-firefox.png">
-<p align="center">
-  <em>Firefox w/Sidebery ↗</em>
-</p>
-<img src="./assets/inspiration/insp-swaync.png">
-<p align="center">
-  <em>swaync ↗ (floating notifications; control center; control center list)</em>
-</p>
+## The Solution?
+cybrcore is built on a fundamentally radical set of assumptions. It has a strong visual identity, but it is rooted in purpose, not polish. Function dictates form, but the form is allowed to have attitude. The system is terminal-first, keyboard-driven, and stripped of anything that doesn't serve the user. Animations are rarely used and if, then they are snappy and quick, communicating state, not "delight", not asking for any precious time. Color palette carries semantic meaning. A single typeface with more than 10 thousand icons eliminates almost any visual noise. And every decision, documented in a design philosophy document, keeps going back to one question: *Is this decoration or information*?
 
-## Themes
-### Core System
-- **[hyprland](./hypr/readme.md)** - Tiling window manager
-- **[kitty](./kitty/readme.md)** - Terminal emulator
-- **[fish](./fish/readme.md)** - User-friendly shell
-- **[waybar](./waybar/readme.md)** - Status bar with custom modules
-- **[rofi](./rofi/readme.md)** - Application launcher & menus
-- **[swaync](./swaync/readme.md)** - Notification daemon
-- **[starship](./starship/readme.md)** - Cross-shell prompt
+Base for this project is Arch Linux. Not only is it flexible and has limitless customization options, its lightness, endless freedom and computing speed is unparalelled in current OS landscape. To ensure consistency and visual and cognitive simplicity throughout the system, I decided to replace most of classic graphical interface (GUI) applications with simple, light and limited tools which utilize text interface (TUI) and command line (CLI). To keep my conscience as clean as possible, I used Free Open Source Software whenever possible. Most of professional creative tools have no FOSS alternative at the time, so I had to yield in few regards. Other than that, the only GUI I use are browser, IDE and a note-taking app, all of them redesigned to look like they run in terminal. Thanks to this, the entire system is extremely fast, very responsive, and intuitive. But it takes deliberate effort to learn how to use and it does not shy away from friction. I can fully concentrate on creating and working, without being burdened by decisions made by someone else, without being bombarded with inconsistent UI trying to entrap me into another hour of doomscrolling.
 
-### Utilities
-- **[btop](./btop/readme.md)** - TUI System resource monitor
-- **[yazi](./yazi/readme.md)** - TUI Terminal file manager
-- **[broot](./broot/readme.md)** - CLI Directory navigator
-- **[fzf](./fzf/readme.md)** - CLI Fuzzy finder
-- **[micro](./micro/readme.md)** - TUI Lightweight text editor
-- **[cava](./cava/readme.md)** - CLI Audio visualizer
-- **[bat](./bat/readme.md)** - CLI Syntax-highlighted file viewer 
-- **[fastfetch](./fastfetch/readme.md)** - CLI System information tool  
-- **[newsboat](./newsboat/readme.md)** - CLI RSS/Atom reader
-
-### WIP
-- **[neovim](./nvim/readme.md)** - Fully themed, polishing  
-- **[firefox](./firefox/readme.md)** - Fully themed, major refactor planned  
-- **[gtk](./gtk/readme.md)** - Early stage  
-- **Cybrcursors** - Fully themed, polishing (*Unreleased*)  
-- **VSCode** - Partially themed (*Unreleased*)  
-- **Obsidian** - Standalone theme planned (*Unreleased*)  
-
-## Related Projects
-These can be used independently of Cybrland:  
-- [Cybrcolors](https://github.com/scherrer-txt/cybrcolors) - Custom color palette (*foundation for all themes*)
-- [Cybrpapers](https://github.com/scherrer-txt/cybrpapers) - Hand-crafted wallpaper collection
-- Cybrcursors - Custom mouse cursors ([preview](https://8upload.com/image/d91ecbad191c4ec9/image_3.jpg))
-
-## Credits & Inspiration
-This project builds on the work of many talented creators:
-
-**Dotfile foundations:**
-- [Matt-FTW/dotfiles](https://github.com/Matt-FTW/dotfiles) - Many of Hyprland configs (*keybinds, scripts*) are based on their dotfiles  
-
-**Theming & aesthetics:**
-- [Catppuccin](https://github.com/catppuccin/catppuccin) - This project showed me what's possible with themes, it's overall scope is inspiration and aspiration at the same time
-- [Cyberpunk 2077 UI Bible](https://www.behance.net/gallery/118663901/Cyberpunk-2077User-Interface-(Part-1)) - Endless source of inspiration and ideas (s/o [Vladimír Vilimovský](https://www.behance.net/vladimirvilimovsky), [Jakub Knapik](https://www.linkedin.com/in/jakub-knapik-56741931), [Robert Bielecki](http://robertbielecki.com/), [Imanol Delago Salazar](https://www.artstation.com/artwork/WKzrBG), [Marcin Stepien](https://www.artstation.com/artwork/GaVGaz), [Simon Besombes](https://www.artstation.com/artwork/285r4a), [Kamil Piotrowski](https://www.artstation.com/artwork/285lYa), [Zuzanna Dabrowa](https://www.artstation.com/artwork/d8RnZ1), [Wojciech Chalinski](https://www.artstation.com/artwork/2855DY), [Pawel Matuszak](https://www.artstation.com/artwork/NxeNDN), [Mateusz Walus](https://www.artstation.com/artwork/5X4OLO) and the army of unnamed and uncredited from CD Projekt RED, who made Cyberpunk 2077 possible)
-- tonsky's [Minimalist Syntax Highlight philosophy](https://tonsky.me/blog/syntax-highlighting/) - This is what I think is optimal and ideal syntax highlighting; inspiration for upcoming system-wide highlighting unification
-
-**Community:**
-- [r/unixporn](https://reddit.com/r/unixporn) - Their [feedback](https://www.reddit.com/r/unixporn/comments/1ouzvfy/hyprland_cybrland_v010/) was the biggest impulse for me to release the dotfiles.
-- [Cyberspace.online](https://cyberspace.online) - Absolutely great community where I found my digital home after many years of wandering and lurking. Their support was of immensely important to keep me going.
-
-If I missed anyone, feel free to open an issue!
+The aesthetic draws from cyberpunk. As honest reflection, not as a surface-level styling. "*High tech, low life*" feels more accurate now than when this core genre tenet was first coined in the 80s. Corporate lobbying, climate crisis, wars, genocides, wealth concentrated in the hands of a cabal of unelected fascist billionaires. This is the world our interfaces exist in, yet nothing in mainstream design acknowledges it. Cybrcore doesn't look away, it's lucid. It is a critique of the design industry and a critique of myself, an attempt to practice my own principles. A UI system that is honest about the world it exists in, while returning control and agency to the person sitting in front of the screen. Where it ought to be.
