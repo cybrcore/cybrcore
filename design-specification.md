@@ -353,10 +353,10 @@ Semantic: `major.minor.patch` → v1.5.7
 | Violet | `vi` |
 | Cyan   | `cy` |
 | White  | `wh` |
-| Metal  | `me` |
+| Grey (metal)  | `me` |
 | Orange | `og` |
 | Pink   | `pi` |
-| Black  | `no` |
+| Black (no-signal)  | `no` |
 | Transparent  | `tr` |
 
 ### Size codes
@@ -376,20 +376,22 @@ Semantic: `major.minor.patch` → v1.5.7
 
 ```
 cybr-[app]/
-├── assets/          # banners, screenshots
 ├── readme.md        # logo, header, showcase, install guide, credits
 └── [config files]
 ```
 
 ### README structure for theme repos
 
-1. Logo / banner
-2. Header: name, version, status
-3. Showcase (screenshots)
-4. Installation guide
-   - Prerequisites (Geist Mono NF, app itself, link to install guide)
+1. Banner
+2. Showcase (screenshots)
+3. Installation guide
+   - Prerequisites
+      - Geist Mono NF
+      - App itself
+      - Link to install guide
+      - Link to app repo and Archwiki
    - Steps
-5. Credits (optional)
+4. Credits (optional)
 
 
 ## Code Standards
