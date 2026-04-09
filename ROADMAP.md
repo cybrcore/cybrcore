@@ -1,10 +1,10 @@
 # Roadmap
 
 ## v1.0.0 (2025-12-31)
-- [x] **cybr-hyprland** v1.0.0
+- [x] **cybrdots** v1.0.0
   - [x] Documentation & install guides  
   - [x] Themes
-    - [x] [hyprland](https://github.com/cybrcore/cybrland), [kitty](https://github.com/cybrcore/cybr-kitty), [fish](https://github.com/cybrcore/cybr-fish), [waybar](https://github.com/cybrcore/cybr-waybar), [rofi](https://github.com/cybrcore/cybr-rofi), [swaync](https://github.com/cybrcore/cybr-swaync), [starship](https://github.com/cybrcore/cybr-starship)
+    - [x] [hyprland](https://github.com/cybrcore/cybr-hyprland), [kitty](https://github.com/cybrcore/cybr-kitty), [fish](https://github.com/cybrcore/cybr-fish), [waybar](https://github.com/cybrcore/cybr-waybar), [rofi](https://github.com/cybrcore/cybr-rofi), [swaync](https://github.com/cybrcore/cybr-swaync), [starship](https://github.com/cybrcore/cybr-starship)
     - [x] [btop](https://github.com/cybrcore/cybr-btop), [yazi](https://github.com/cybrcore/cybr-yazi), [broot](https://github.com/cybrcore/cybr-broot), [fzf](https://github.com/cybrcore/cybr-fzf), [micro](https://github.com/cybrcore/cybr-micro), [cava](https://github.com/cybrcore/cybr-cava), [bat](https://github.com/cybrcore/cybr-bat)
     - [x] [neovim](https://github.com/cybrcore/cybr-nvim) (*alpha*)
     - [x] [firefox](https://github.com/cybrcore/cybr-firefox) (*alpha*)

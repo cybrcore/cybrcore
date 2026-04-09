@@ -27,7 +27,7 @@ This project has clear guidelines for AI usage.
 
 ### Suggesting Features
 - Use the [Feature Request Template](.github/ISSUE_TEMPLATE/feature_request.md)
-- Be specific about what you want, why it matters, and how it fits Cybrland's philosophy
+- Be specific about what you want, why it matters, and how it fits Cybrcore's philosophy
 - Include mockups or examples if applicable
 
 ### Submitting Pull Requests
@@ -50,4 +50,4 @@ All contributors must maintain a respectful and collaborative environment. Offen
 This project follows the [Contributor Covenant](https://www.contributor-covenant.org/version/2/1/code_of_conduct/).
 
 ## Acknowledgments
-Every contribution counts. Even small fixes, documentation improvements, or suggestions improve the ecosystem. By contributing, you help Cybrland evolve into a consistent, modular, cyberpunk-inspired experience for Linux users everywhere.
+Every contribution counts. Even small fixes, documentation improvements, or suggestions improve the ecosystem. By contributing, you help Cybrcore evolve into a consistent, modular, lucid experience for Linux users everywhere.
