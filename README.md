@@ -5,6 +5,11 @@
     <img alt="standwithukraine" src="https://img.shields.io/badge/Support-Ukraine-FFC93C?style=flat-square&labelColor=07689F">
   </a>
 
+## Related `cybrcore` Projects
+- [cybrdots](https://github.com/cybrcore/cybrdots) -- Dotfiles for Arch Linux  
+- [cybrcolors](https://github.com/cybrcore/cybrcolors) -- Custom color palette  
+- [cybrpapers](https://github.com/cybrcore/cybrpapers) -- Wallpaper collection  
+
 # What is `cybrcore`
 ## tl;dr
 Lucid design system and philosophy. Custom color palette, wallpapers, deliberate typography. 20+ redesigned applications. Open source under GPL-3.0.
