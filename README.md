@@ -1,9 +1,10 @@
-<img alt="cybrcore" src="https://raw.githubusercontent.com/cybrcore/cybrcore/refs/heads/main/assets/repo-banners/cybrcore-banner.png">
+<img alt="cybrcore" src="https://raw.githubusercontent.com/cybrcore/cybrcore/refs/heads/main/assets/repo-banners/cybrcore-banner-top.png"/>
 
 <p align="center">
   <a href="https://stand-with-ukraine.pp.ua/">
     <img alt="standwithukraine" src="https://img.shields.io/badge/Support-Ukraine-FFC93C?style=flat-square&labelColor=07689F">
   </a>
+</p>
 
 ## Related `cybrcore` Projects
 - [cybrdots](https://github.com/cybrcore/cybrdots) -- Dotfiles for Arch Linux  
