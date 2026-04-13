@@ -13,7 +13,7 @@
   ·
   <a href="https://github.com/cybrcore/cybrcore/blob/main/design-specification.md">Design specification</a>
   ·
-  <a href="https://github.com/cybrcore/cybrcore/blob/main/README.md">Philosophy</a>
+  <a href="https://github.com/cybrcore/cybrcore/blob/main/design-philosophy.md">Design Philosophy</a>
 </h6>
 
 &nbsp;
