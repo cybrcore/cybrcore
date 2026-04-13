@@ -9,7 +9,7 @@
 <h6 align="center">
   <a href="https://github.com/cybrcore/cybrdots">Dotfiles & Showcase</a>
   ·
-  <a href="https://github.com/cybrcore/cybrcolors#-palette">Palette</a>
+  <a href="https://github.com/cybrcore/cybrcolors#palette">Palette</a>
   ·
   <a href="https://github.com/cybrcore/cybrcore/blob/main/design-specification.md">Design specification</a>
   ·
